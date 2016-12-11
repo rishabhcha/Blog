@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1036032824240",
+    "firebase_url": "https://blog-b40c7.firebaseio.com",
+    "project_id": "blog-b40c7",
+    "storage_bucket": "blog-b40c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036032824240:android:4fc7759711cf95d9",
+        "android_client_info": {
+          "package_name": "com.example.rishabh.blog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036032824240-e300o5qs03hi6mq7p2hno9r5ur8oie4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rishabh.blog",
+            "certificate_hash": "7DD8E3E17ECA325ACEF7B86271B8F304095238F2"
+          }
+        },
+        {
+          "client_id": "1036032824240-0os3sf4niapi5uinid87f2da2k588puv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnjjjP-Uc6-WFra28Su9m-matZWiHzEFM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036032824240-0os3sf4niapi5uinid87f2da2k588puv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

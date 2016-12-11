@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_post"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rishabh.blog.PostActivity">
+
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageSelector"
+        android:background="@color/cardview_shadow_start_color"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_photo_white_48dp"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/titleField"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="193dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/field_background"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:hint="Post Title..." />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:layout_marginTop="80dp"
+        android:id="@+id/descField"
+        android:layout_alignTop="@+id/titleField"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/field_background"
+        android:padding="15dp"
+        android:hint="Post Discription..." />
+
+    <Button
+        android:text="Submit Post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/submitBtn"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"/>
+</RelativeLayout>
