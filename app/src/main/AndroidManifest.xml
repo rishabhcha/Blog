@@ -28,7 +28,11 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".SetupActivity" />
         <activity android:name=".BlogSingleActivity" />
-        <activity android:name=".UserProfileActivity"></activity>
+        <activity android:name=".UserProfileActivity" />
+        <activity android:name=".CreateChallengeActivity" />
+        <activity android:name=".ChallengeActivity" />
+        <activity android:name=".SelectChallengerActivity" />
+        <activity android:name=".AcceptChallenge"></activity>
     </application>
 
 </manifest>

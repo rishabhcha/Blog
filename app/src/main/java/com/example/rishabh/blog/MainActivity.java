@@ -263,6 +263,16 @@ public class MainActivity extends AppCompatActivity {
         if (item.getItemId()==R.id.action_profile){
             startActivity(new Intent(MainActivity.this,UserProfileActivity.class));
         }
+        if (item.getItemId()==R.id.action_create_challenge){
+            startActivity(new Intent(MainActivity.this,CreateChallengeActivity.class));
+        }
+        if (item.getItemId()==R.id.action_view_challenge){
+            startActivity(new Intent(MainActivity.this,ChallengeActivity.class));
+        }
+        if (item.getItemId()==R.id.action_accept_challenge){
+            startActivity(new Intent(MainActivity.this,AcceptChallenge.class));
+            finish();
+        }
 
         return super.onOptionsItemSelected(item);
     }

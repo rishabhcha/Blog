@@ -15,6 +15,18 @@
         android:title="Profile"
         app:showAsAction="never"/>
 
+    <item android:id="@+id/action_view_challenge"
+        android:title="Challenge Gallery"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_create_challenge"
+        android:title="Send Challenge"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_accept_challenge"
+        android:title="Accept Challenge"
+        app:showAsAction="never"/>
+
     <item android:id="@+id/action_logout"
         android:title="Log Out"
         app:showAsAction="never"/>
